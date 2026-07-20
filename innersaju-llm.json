@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "recommended": "gemma-4-e2b-it",
+  "models": [
+    {
+      "id": "gemma-4-e2b-it",
+      "revision": "main",
+      "engine": "gemma.litertlm",
+      "displayName": "Gemma 4 E2B",
+      "licenseUrl": "https://ai.google.dev/gemma/terms",
+      "files": [
+        {
+          "name": "gemma-4-E2B-it.litertlm",
+          "kind": "model",
+          "hf": {
+            "repo": "litert-community/gemma-4-E2B-it-litert-lm",
+            "file": "gemma-4-E2B-it.litertlm"
+          }
+        }
+      ]
+    }
+  ]
+}
